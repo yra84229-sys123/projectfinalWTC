@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body>
+    <div class="app-container">
+        <nav class="navbar">
+            <div class="nav-logo"></div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+        </nav>
+
+        <main class="contact-section fade-in-up">
+            <div class="portfolio-header delay-1">
+                <h1 class="portfolio-title">Contact Me</h1>
+                <p class="portfolio-subtitle">Have something in mind? Send a message and let's connect.</p>
+            </div>
+
+            <div class="contact-content delay-2">
+                <div class="contact-left">
+                    <div class="contact-card">
+                        <h2>Send a Message</h2>
+                        <form class="contact-form">
+                            <div class="input-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn" style="background-color: #000; color: #fff; border: 1px solid rgba(255,255,255,0.2);">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-card info-card">
+                        <h2>Contact Information</h2>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <span>yra84229@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Phone</h4>
+                                <span>017-573-682</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Location</h4>
+                                <span>Phnom Penh, Cambodia</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="globe"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Social Media</h4>
+                                <div class="social-links">
+                                    <a href="https://www.facebook.com/share/14hLmmP1Gvx/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                                    </a>
+                                    <a href="https://instagram.com/iur.aaaa" target="_blank" rel="noreferrer">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <a href="index.html" class="scroll-indicator" style="text-decoration: none;">
+            BACK TO HOME
+            <i data-lucide="arrow-up"></i>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
